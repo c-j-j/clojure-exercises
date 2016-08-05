@@ -1,4 +1,4 @@
-(ns clojure-exercises.core)
+(ns clojure-exercises.linked-list)
 
 (defn insert-to-left-of [list old new]
   (cond (empty? list) '()

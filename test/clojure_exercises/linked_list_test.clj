@@ -1,6 +1,6 @@
-(ns clojure-exercises.core-test
+(ns clojure-exercises.linked-list-test
   (:require [clojure.test :refer :all]
-            [clojure-exercises.core :refer :all]))
+            [clojure-exercises.linked-list :refer :all]))
 
 (deftest list-actions
   (testing "find a single element and insert to the left of it"
